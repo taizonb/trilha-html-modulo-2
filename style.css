@@ -1,12 +1,13 @@
-html, body {
-    margin: 0;
+@charset "UTF-8"
+
+html, body{
+    margin: 0px;
 }
-body {
+body{
     background-color: #f1f1f1;
     display: flex;
     justify-content: center;
 }
-
 .wrapper {
     width: 1200px;
     display: flex;
@@ -21,7 +22,7 @@ body {
 .menu {
     width: 15%;
     background-color: aqua;
-    padding: 10px 20px 0px;
+    padding: 10px 5px 0px 0px;
 }
 .header {
     background-color: rgb(5, 108, 108);
@@ -32,7 +33,35 @@ body {
     min-height: 300px;
     padding: 20px;
 }
+
+h1{
+    text-decoration: underline;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 1px 5px 1px 5px;
+}
+
+.form01{
+    margin 5px;
+}
+
+label{
+    display: inline-block;
+    text-align: right;
+    padding-right: 5px;
+    width: 70px;
+}
+fieldset{
+    width: 600px;
+}
+
 .footer {
     background-color: rgb(99, 56, 240);
-    min-height: 150px;
+    min-height: 100px;
 }
